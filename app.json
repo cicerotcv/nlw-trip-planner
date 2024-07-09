@@ -1,27 +1,29 @@
 {
   "expo": {
-    "name": "travel-planner",
+    "name": "Travel Planner",
     "slug": "travel-planner",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./src/assets/app/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./src/assets/app/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#09090B"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.travelplanner"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./src/assets/app/adaptive-icon.png",
+        "backgroundColor": "#09090B"
+      },
+      "package": "com.anonymous.travelplanner"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./src/assets/app/favicon.png"
     }
   }
 }
