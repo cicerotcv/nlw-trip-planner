@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Travel Planner",
-    "slug": "travel-planner",
+    "name": "Trip Planner",
+    "slug": "trip-planner",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./src/assets/app/icon.png",
@@ -13,14 +13,14 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.anonymous.travelplanner"
+      "bundleIdentifier": "com.anonymous.tripplanner"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./src/assets/app/adaptive-icon.png",
         "backgroundColor": "#09090B"
       },
-      "package": "com.anonymous.travelplanner"
+      "package": "com.anonymous.tripplanner"
     },
     "web": {
       "favicon": "./src/assets/app/favicon.png"

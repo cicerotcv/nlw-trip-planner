@@ -1,4 +1,4 @@
-rootProject.name = 'Travel Planner'
+rootProject.name = 'Trip Planner'
 
 dependencyResolutionManagement {
   versionCatalogs {

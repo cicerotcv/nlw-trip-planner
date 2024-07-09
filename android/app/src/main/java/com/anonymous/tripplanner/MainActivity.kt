@@ -1,4 +1,4 @@
-package com.anonymous.travelplanner
+package com.anonymous.tripplanner
 
 import android.os.Build
 import android.os.Bundle
