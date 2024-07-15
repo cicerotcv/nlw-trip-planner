@@ -1,6 +1,5 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import { HomeScreen } from '@/modules/planner/screens/home';
 import { colors } from '@/styles/colors';
 
 import { RootStackParams } from './params';
@@ -17,8 +16,9 @@ export const RootStackNavigator = () => {
           backgroundColor: colors.zinc[950],
         },
       }}
+      initialRouteName={RootStackRoutes.TripList}
     >
-      <RootStack.Screen name={RootStackRoutes.Home} component={HomeScreen} />
+     
     </RootStack.Navigator>
   );
 };
