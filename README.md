@@ -22,8 +22,8 @@ This project is a trip planner developed during the NLW (Next Level Week) event 
 - List all trips;
         
 ## 🛠️ Tech Stack
-- [React Native](https://reactjs.org/)
-- [Expo](https://nextjs.org/)
+- [React Native](https://reactnative.dev)
+- [Expo](https://expo.dev)
 - [TypeScript](https://www.typescriptlang.org/)
 - [NativeWind](https://www.nativewind.dev)
 
